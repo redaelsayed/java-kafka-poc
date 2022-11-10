@@ -17,8 +17,8 @@
   
 
 Request:
- - buils a java program using Kafka to read the 1M users from db in batches 
+ - buils a java program using Kafka to read the 1M users from db in batches and write it to "messages" topic
  - prepare a message for each user and write this message to kafka topic 
- - build a java consumer(s) to read these messages and write them to file(s)
+ - build a java consumer(s) to read these messages from "messages" topic and write them to file(s)
  
  
