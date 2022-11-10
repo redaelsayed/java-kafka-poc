@@ -18,7 +18,7 @@
 
 Request:
  - Start your db locally
- - import 1M records
+ - import 1M records (users.sql.zip) in project files
  - start your Kafka locally
  - buils a java program using Kafka to read the 1M users from db in batches and write it to "messages" topic
  - prepare a message for each user and write this message to kafka topic 
