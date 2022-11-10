@@ -4,16 +4,16 @@
     - name : String
     - phone : String
     - balance : float
-- and we need to send a message to all these customers with format "Hello [name] you got 2X of your balance . you current balance is 2*[balance]"
+- and we need to send a message (SMS) to all these customers with format "Hello [name] you got 2X of your balance . you current balance is 2*[balance]"
 
 
-- assumptions :
-  - our database is mysql or postgres (choose your faivrout ) 
-  - table strcuter 
+- Assumptions :
+  - our database is mysql or postgres (choose your favourite ) 
+  - Table structure 
       name :String
       phone:String
       balance:float
-  - We have sms gateway to send the messages ( for now we will just write these massges to file(s))
+  - we will simulate the sms gateway by just write these massges to file(s)
   
 
 Request:
