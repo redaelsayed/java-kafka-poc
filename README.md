@@ -4,7 +4,7 @@
     - name : String
     - phone : String
     - balance : float
-- and we need to send a message to all these customers with format "Hello <name> you got 2X of your balance . you current balance is 2*<balance>"
+- and we need to send a message to all these customers with format "Hello [name] you got 2X of your balance . you current balance is 2*[balance]"
 
 
 - assumptions :
